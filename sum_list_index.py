@@ -1,0 +1,12 @@
+n=[[1,2,3],[4,5,6],[7,8,9]]
+i=0
+sum=0
+while(i<len(n)):
+    j=0
+    while(j<len(n[i])):
+        if(i==j):
+            sum=sum+n[i][j]
+            print(n[i][j],"print")
+        j=j+1
+    i=i+1
+print(sum)
